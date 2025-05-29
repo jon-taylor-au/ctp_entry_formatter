@@ -1,0 +1,27 @@
+# Custom ignores
+models/
+temp/
+secrets.json
+outputs/
+files/
+archived/
+archives/
+*courtbook.csv
+*chronology*.csv
+*debug*
+readme.pdf
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Environments
+.env
+.venv
+myenv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+

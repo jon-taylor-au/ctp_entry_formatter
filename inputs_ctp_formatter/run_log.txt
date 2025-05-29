@@ -1,0 +1,94 @@
+
+============================================================
+RUN STARTED: 2025-05-30 08:40:15 in http://sydwebdev039:8080/sparke
+============================================================
+Excel file not found: inputs\book_id_queue.xlsx
+
+============================================================
+RUN STARTED: 2025-05-30 08:41:29 in http://sydwebdev039:8080/sparke
+============================================================
+Loaded 1 rows from Excel.
+Row 0: BookID='11410' Status='nan'
+Processing
+[11410] Running: 01_get_data.py
+[11410] 01_get_data.py completed.
+[11410] Running: 02_change_data.py
+[11410] 02_change_data.py completed.
+[11410] Running: 03_present_data.py
+[11410] 03_present_data.py completed.
+[11410] Running: 04_write_back.py
+[11410] 04_write_back.py completed.
+[11410] Running: 05_cleanup.py
+[11410] 05_cleanup.py completed.
+[11410] Status updated to 'Done'
+Excel file updated successfully.
+Excel formatting applied to: inputs_ctp_formatter\book_id_queue.xlsx
+Timestamp updated to reflect last checked state.
+All pending Book IDs processed.
+Run completed at 2025-05-30 08:41:33
+============================================================
+
+============================================================
+RUN STARTED: 2025-05-30 08:49:32 in http://sydwebdev139:8080/sparke
+============================================================
+Loaded 1 rows from Excel.
+Row 0: BookID='11410' Status='done'
+Skipping
+No updates made to Excel.
+Timestamp updated to reflect last checked state.
+All pending Book IDs processed.
+Run completed at 2025-05-30 08:49:32
+============================================================
+
+============================================================
+RUN STARTED: 2025-05-30 08:50:22 in http://sydwebdev139:8080/sparke
+============================================================
+Excel file unchanged since last run. Exiting.
+
+============================================================
+RUN STARTED: 2025-05-30 08:55:14 in http://sydwebdev139:8080/sparke
+============================================================
+Excel file unchanged since last run. Exiting.
+
+============================================================
+PROCESS: CTP Clinical Summaries Formatter
+
+RUN STARTED: 2025-05-30 08:55:39 in http://sydwebdev139:8080/sparke
+============================================================
+Excel file unchanged since last run. Exiting.
+
+======================================================================
+PROCESS: CTP Clinical Summaries Formatter
+RUN STARTED: 2025-05-30 08:56:39 in http://sydwebdev139:8080/sparke
+======================================================================
+Excel file unchanged since last run. Exiting.
+
+======================================================================
+PROCESS: CTP Clinical Entries Formatter
+RUN STARTED: 2025-05-30 08:58:25 in http://sydwebdev139:8080/sparke
+======================================================================
+Excel file unchanged since last run. Exiting.
+
+======================================================================
+PROCESS: CTP Clinical Entries Formatter
+RUN STARTED: 2025-05-30 08:59:14 in http://sydwebdev139:8080/sparke
+======================================================================
+Excel file unchanged since last run. Exiting.
+
+======================================================================
+PROCESS: CTP Clinical Entries Formatter
+RUN STARTED: 2025-05-30 09:02:37 in http://sydwebdev139:8080/sparke
+======================================================================
+Excel file unchanged since last run. Exiting.
+
+======================================================================
+PROCESS: CTP Clinical Entries Formatter
+RUN STARTED: 2025-05-30 09:12:42 in http://sydwebdev139:8080/sparke
+======================================================================
+Excel file unchanged since last run. Exiting.
+
+======================================================================
+PROCESS: CTP Clinical Entries Formatter
+RUN STARTED: 2025-05-30 09:22:46 in http://sydwebdev139:8080/sparke
+======================================================================
+Excel file unchanged since last run. Exiting.
