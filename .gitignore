@@ -1,32 +1,38 @@
-# Custom ignores
+# === Custom Folders and Files ===
 models/
 temp/
-secrets.json
-outputs/
 files/
 archived/
 archives/
+outputs/
+processed/
+run_scripts/
+inputs_ctp_formatter/
+readme.pdf
+secrets.json
+last_run_timestamp.txt
+
+# === File Patterns ===
 *courtbook.csv
 *chronology*.csv
 *debug*
-readme.pdf
-*run_log.txt
-run_scripts/
-processed/
-inputs_ctp_formatter/
-.zip
+*log*
+*.zip
 
-# Installer logs
+# === Python Installer Logs ===
 pip-log.txt
 pip-delete-this-directory.txt
 
-# Environments
+# === Virtual Environments ===
 .env
-.venv
-myenv/
+.venv/
 env/
-venv/
 ENV/
 env.bak/
+venv/
 venv.bak/
+myenv/
 
+# === System Files ===
+.DS_Store
+Thumbs.db
