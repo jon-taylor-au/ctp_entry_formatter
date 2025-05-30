@@ -10,7 +10,7 @@ archives/
 *chronology*.csv
 *debug*
 readme.pdf
-run_log.txt
+*run_log.txt
 run_scripts/
 processed/
 .zip
