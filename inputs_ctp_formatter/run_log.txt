@@ -140,3 +140,9 @@ PROCESS: CTP Clinical Entries Formatter
 RUN STARTED: 2025-05-30 10:43:34 in http://sydwebdev139:8080/sparke
 ======================================================================
 Excel file unchanged since last run. Exiting.
+
+======================================================================
+PROCESS: CTP Clinical Entries Formatter
+RUN STARTED: 2025-05-30 10:53:39 in http://sydwebdev139:8080/sparke
+======================================================================
+Excel file unchanged since last run. Exiting.

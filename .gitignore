@@ -13,6 +13,7 @@ readme.pdf
 *run_log.txt
 run_scripts/
 processed/
+inputs_ctp_formatter/
 .zip
 
 # Installer logs
